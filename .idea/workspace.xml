@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be1ca10-4a0a-47b4-bfb5-e25f8ecd1153" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/matc/persistence/PetStoreDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/petstore/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/matc/persistence/PetStoreDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matc/persistence/PetStoreDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/petstore/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/matc/persistence/PetStoreDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/matc/persistence/PetStoreDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/matc/persistence/PetStoreDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/matc/persistence/PetStoreDaoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZUojgwwu8AS9qmm8ZtvAu7eBcb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,6 +41,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -61,7 +63,38 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PetStoreDaoTest.testPetStoreJSON">
+  <component name="RunManager" selected="JUnit.PetStoreDaoTest">
+    <configuration name="PetStoreDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PetStoreAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.matc.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.matc.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.matc.persistence.PetStoreDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetStoreDaoTest.getPetSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PetStoreAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.matc.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.matc.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.matc.persistence.PetStoreDaoTest" />
+      <option name="METHOD_NAME" value="getPetSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PetStoreDaoTest.testPetStoreJSON" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetStoreAPI" />
       <extension name="coverage">
@@ -170,6 +203,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PetStoreDaoTest" />
+        <item itemvalue="JUnit.PetStoreDaoTest.getPetSuccess" />
         <item itemvalue="JUnit.PetStoreDaoTest.testPetStoreJSON" />
         <item itemvalue="JUnit.PetStoreDaoTest.testswapiJSON" />
       </list>
@@ -214,12 +249,15 @@
       <option name="presentableId" value="Default" />
       <updated>1584903169113</updated>
       <workItem from="1584903173537" duration="4062000" />
-      <workItem from="1584907463200" duration="1770000" />
+      <workItem from="1584907463200" duration="3095000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="776" y="284" width="424" height="384" key="#BuildArtifactsBeforeRunChooser" timestamp="1584906447152">
@@ -246,22 +284,22 @@
       <screen x="67" y="27" width="1853" height="900" />
     </state>
     <state x="776" y="234" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.900@67.27.1853.900" timestamp="1584907933708" />
-    <state width="1807" height="228" key="GridCell.Tab.0.bottom" timestamp="1584909268285">
+    <state width="1807" height="228" key="GridCell.Tab.0.bottom" timestamp="1584910852554">
       <screen x="67" y="27" width="1853" height="900" />
     </state>
-    <state width="1807" height="228" key="GridCell.Tab.0.bottom/67.27.1853.900@67.27.1853.900" timestamp="1584909268285" />
-    <state width="1807" height="228" key="GridCell.Tab.0.center" timestamp="1584909268284">
+    <state width="1807" height="228" key="GridCell.Tab.0.bottom/67.27.1853.900@67.27.1853.900" timestamp="1584910852554" />
+    <state width="1807" height="228" key="GridCell.Tab.0.center" timestamp="1584910852553">
       <screen x="67" y="27" width="1853" height="900" />
     </state>
-    <state width="1807" height="228" key="GridCell.Tab.0.center/67.27.1853.900@67.27.1853.900" timestamp="1584909268284" />
-    <state width="1807" height="228" key="GridCell.Tab.0.left" timestamp="1584909268284">
+    <state width="1807" height="228" key="GridCell.Tab.0.center/67.27.1853.900@67.27.1853.900" timestamp="1584910852553" />
+    <state width="1807" height="228" key="GridCell.Tab.0.left" timestamp="1584910852551">
       <screen x="67" y="27" width="1853" height="900" />
     </state>
-    <state width="1807" height="228" key="GridCell.Tab.0.left/67.27.1853.900@67.27.1853.900" timestamp="1584909268284" />
-    <state width="1807" height="228" key="GridCell.Tab.0.right" timestamp="1584909268285">
+    <state width="1807" height="228" key="GridCell.Tab.0.left/67.27.1853.900@67.27.1853.900" timestamp="1584910852551" />
+    <state width="1807" height="228" key="GridCell.Tab.0.right" timestamp="1584910852553">
       <screen x="67" y="27" width="1853" height="900" />
     </state>
-    <state width="1807" height="228" key="GridCell.Tab.0.right/67.27.1853.900@67.27.1853.900" timestamp="1584909268285" />
+    <state width="1807" height="228" key="GridCell.Tab.0.right/67.27.1853.900@67.27.1853.900" timestamp="1584910852553" />
     <state x="526" y="134" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1584904286896">
       <screen x="67" y="27" width="1853" height="900" />
     </state>
