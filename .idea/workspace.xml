@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be1ca10-4a0a-47b4-bfb5-e25f8ecd1153" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matc/persistence/PetStoreDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petstore/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/matc/persistence/PetStoreDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matc/persistence/PetStoreDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matc/persistence/PetStoreDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/petstore/Pet.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +44,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Week8 - Activity 1- Project-1-soapui-project.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
@@ -59,6 +60,148 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PetStoreDaoTest.testPetStoreJSON">
+    <configuration name="PetStoreDaoTest.testPetStoreJSON" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PetStoreAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.matc.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.matc.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.matc.persistence.PetStoreDaoTest" />
+      <option name="METHOD_NAME" value="testPetStoreJSON" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetStoreDaoTest.testswapiJSON" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PetStoreAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.matc.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.matc.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.matc.persistence.PetStoreDaoTest" />
+      <option name="METHOD_NAME" value="testswapiJSON" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TomEE 8.5.41" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 8.5.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/PetStoreAPI" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="PetStoreAPI:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/PetStoreAPI_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_PetStoreAPI" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="38893" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="install" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="PetStoreAPI:war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PetStoreDaoTest.testPetStoreJSON" />
+        <item itemvalue="JUnit.PetStoreDaoTest.testswapiJSON" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="TomEE Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="TomEE Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="TomEE Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="TomEE 8.5.41" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -70,7 +213,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584903169113</updated>
-      <workItem from="1584903173537" duration="2006000" />
+      <workItem from="1584903173537" duration="4062000" />
+      <workItem from="1584907463200" duration="1770000" />
     </task>
     <servers />
   </component>
@@ -78,13 +222,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="776" y="234" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584905051655">
+    <state x="776" y="284" width="424" height="384" key="#BuildArtifactsBeforeRunChooser" timestamp="1584906447152">
       <screen x="67" y="27" width="1853" height="900" />
     </state>
-    <state x="776" y="234" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.900@67.27.1853.900" timestamp="1584905051655" />
+    <state x="776" y="284" width="424" height="384" key="#BuildArtifactsBeforeRunChooser/67.27.1853.900@67.27.1853.900" timestamp="1584906447152" />
+    <state x="588" y="137" width="800" height="677" key="#Project_Structure" timestamp="1584906349245">
+      <screen x="67" y="27" width="1853" height="900" />
+    </state>
+    <state x="588" y="137" width="800" height="677" key="#Project_Structure/67.27.1853.900@67.27.1853.900" timestamp="1584906349245" />
+    <state x="451" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584907237008">
+      <screen x="67" y="27" width="1853" height="900" />
+    </state>
+    <state x="451" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.900@67.27.1853.900" timestamp="1584907237008" />
+    <state x="588" y="137" width="800" height="677" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1584906195389">
+      <screen x="67" y="27" width="1853" height="900" />
+    </state>
+    <state x="588" y="137" width="800" height="677" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/67.27.1853.900@67.27.1853.900" timestamp="1584906195389" />
+    <state x="726" y="225" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584905658507">
+      <screen x="67" y="27" width="1853" height="900" />
+    </state>
+    <state x="726" y="225" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.900@67.27.1853.900" timestamp="1584905658507" />
+    <state x="776" y="234" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584907933708">
+      <screen x="67" y="27" width="1853" height="900" />
+    </state>
+    <state x="776" y="234" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.900@67.27.1853.900" timestamp="1584907933708" />
+    <state width="1807" height="228" key="GridCell.Tab.0.bottom" timestamp="1584909268285">
+      <screen x="67" y="27" width="1853" height="900" />
+    </state>
+    <state width="1807" height="228" key="GridCell.Tab.0.bottom/67.27.1853.900@67.27.1853.900" timestamp="1584909268285" />
+    <state width="1807" height="228" key="GridCell.Tab.0.center" timestamp="1584909268284">
+      <screen x="67" y="27" width="1853" height="900" />
+    </state>
+    <state width="1807" height="228" key="GridCell.Tab.0.center/67.27.1853.900@67.27.1853.900" timestamp="1584909268284" />
+    <state width="1807" height="228" key="GridCell.Tab.0.left" timestamp="1584909268284">
+      <screen x="67" y="27" width="1853" height="900" />
+    </state>
+    <state width="1807" height="228" key="GridCell.Tab.0.left/67.27.1853.900@67.27.1853.900" timestamp="1584909268284" />
+    <state width="1807" height="228" key="GridCell.Tab.0.right" timestamp="1584909268285">
+      <screen x="67" y="27" width="1853" height="900" />
+    </state>
+    <state width="1807" height="228" key="GridCell.Tab.0.right/67.27.1853.900@67.27.1853.900" timestamp="1584909268285" />
     <state x="526" y="134" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1584904286896">
       <screen x="67" y="27" width="1853" height="900" />
     </state>
     <state x="526" y="134" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1853.900@67.27.1853.900" timestamp="1584904286896" />
+    <state x="302" y="180" width="1372" height="592" key="new project wizard" timestamp="1584906874712">
+      <screen x="67" y="27" width="1853" height="900" />
+    </state>
+    <state x="302" y="180" width="1372" height="592" key="new project wizard/67.27.1853.900@67.27.1853.900" timestamp="1584906874712" />
   </component>
 </project>

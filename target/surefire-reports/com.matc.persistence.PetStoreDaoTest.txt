@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.matc.persistence.PetStoreDaoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.397 sec <<< FAILURE! - in com.matc.persistence.PetStoreDaoTest
+testswapiJSON  Time elapsed: 1.304 sec  <<< ERROR!
+javax.ws.rs.ProcessingException: URI is not absolute
+	at com.matc.persistence.PetStoreDaoTest.testswapiJSON(PetStoreDaoTest.java:15)
+Caused by: java.lang.IllegalArgumentException: URI is not absolute
+	at com.matc.persistence.PetStoreDaoTest.testswapiJSON(PetStoreDaoTest.java:15)
+
