@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be1ca10-4a0a-47b4-bfb5-e25f8ecd1153" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/logs/PetStoreAPI.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/hibernate.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/matc/persistence/PetStoreDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matc/persistence/PetStoreDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/matc/persistence/PetStoreDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/matc/persistence/PetStoreDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/matc/persistence/PetStoreDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matc/persistence/PetStoreDao.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PetStoreDaoTest">
+  <component name="RunManager" selected="JUnit.PetStoreDaoTest.getPetSuccess">
     <configuration name="PetStoreDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetStoreAPI" />
       <extension name="coverage">
@@ -200,8 +204,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PetStoreDaoTest" />
         <item itemvalue="JUnit.PetStoreDaoTest.getPetSuccess" />
+        <item itemvalue="JUnit.PetStoreDaoTest" />
         <item itemvalue="JUnit.PetStoreDaoTest.testPetStoreJSON" />
         <item itemvalue="JUnit.PetStoreDaoTest.testswapiJSON" />
       </list>
@@ -246,7 +250,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584903169113</updated>
       <workItem from="1584903173537" duration="4062000" />
-      <workItem from="1584907463200" duration="3765000" />
+      <workItem from="1584907463200" duration="5213000" />
     </task>
     <servers />
   </component>
@@ -281,22 +285,22 @@
       <screen x="67" y="27" width="1853" height="900" />
     </state>
     <state x="776" y="234" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.900@67.27.1853.900" timestamp="1584911381402" />
-    <state width="1807" height="228" key="GridCell.Tab.0.bottom" timestamp="1584911083796">
+    <state width="1807" height="418" key="GridCell.Tab.0.bottom" timestamp="1584927866011">
       <screen x="67" y="27" width="1853" height="900" />
     </state>
-    <state width="1807" height="228" key="GridCell.Tab.0.bottom/67.27.1853.900@67.27.1853.900" timestamp="1584911083796" />
-    <state width="1807" height="228" key="GridCell.Tab.0.center" timestamp="1584911083795">
+    <state width="1807" height="418" key="GridCell.Tab.0.bottom/67.27.1853.900@67.27.1853.900" timestamp="1584927866011" />
+    <state width="1807" height="418" key="GridCell.Tab.0.center" timestamp="1584927866010">
       <screen x="67" y="27" width="1853" height="900" />
     </state>
-    <state width="1807" height="228" key="GridCell.Tab.0.center/67.27.1853.900@67.27.1853.900" timestamp="1584911083795" />
-    <state width="1807" height="228" key="GridCell.Tab.0.left" timestamp="1584911083795">
+    <state width="1807" height="418" key="GridCell.Tab.0.center/67.27.1853.900@67.27.1853.900" timestamp="1584927866010" />
+    <state width="1807" height="418" key="GridCell.Tab.0.left" timestamp="1584927866008">
       <screen x="67" y="27" width="1853" height="900" />
     </state>
-    <state width="1807" height="228" key="GridCell.Tab.0.left/67.27.1853.900@67.27.1853.900" timestamp="1584911083795" />
-    <state width="1807" height="228" key="GridCell.Tab.0.right" timestamp="1584911083796">
+    <state width="1807" height="418" key="GridCell.Tab.0.left/67.27.1853.900@67.27.1853.900" timestamp="1584927866008" />
+    <state width="1807" height="418" key="GridCell.Tab.0.right" timestamp="1584927866011">
       <screen x="67" y="27" width="1853" height="900" />
     </state>
-    <state width="1807" height="228" key="GridCell.Tab.0.right/67.27.1853.900@67.27.1853.900" timestamp="1584911083796" />
+    <state width="1807" height="418" key="GridCell.Tab.0.right/67.27.1853.900@67.27.1853.900" timestamp="1584927866011" />
     <state x="526" y="134" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1584904286896">
       <screen x="67" y="27" width="1853" height="900" />
     </state>
@@ -305,5 +309,10 @@
       <screen x="67" y="27" width="1853" height="900" />
     </state>
     <state x="302" y="180" width="1372" height="592" key="new project wizard/67.27.1853.900@67.27.1853.900" timestamp="1584906874712" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PetStoreAPI$PetStoreDaoTest_getPetSuccess.ic" NAME="PetStoreDaoTest.getPetSuccess Coverage Results" MODIFIED="1584927865877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.matc.persistence.*</FILTER>
+    </SUITE>
   </component>
 </project>

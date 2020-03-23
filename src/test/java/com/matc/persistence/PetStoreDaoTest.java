@@ -10,6 +10,6 @@ public class PetStoreDaoTest {
     @Test
     public void getPetSuccess() {
         PetStoreDao dao = new PetStoreDao();
-        assertEquals("doggie", dao.getPet().getName());
+        assertEquals("Hailie", dao.getPet().getName());
     }
 }
